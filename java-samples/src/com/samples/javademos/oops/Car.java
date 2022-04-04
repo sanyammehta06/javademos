@@ -1,6 +1,7 @@
 package com.samples.javademos.oops;
 
 public class Car {
+    public static String someProp; 
   private String fuelType;
   private int noOfWheels;
   private String gearType;
@@ -35,7 +36,9 @@ public String toString() {
     return "Car [fuelType=" + fuelType + ", noOfWheels=" + noOfWheels + ", gearType=" + gearType + ", colour=" + colour
             + "]";
 }
-
+ public static void printSomething() {
+     System.out.println("print through static method");
+ }
   
   
  
