@@ -14,6 +14,11 @@ public class testArrayList {
         strList.add("phase1");
         System.out.println(strList);
         
+        int x=10;
+        Integer z = Integer.valueOf(x);  //this method of converting primitive to wrapper is called BOXING.
+        Integer newVar = 20;   //auto-boxing
+        int y = newVar.intValue(); //un-boxing
+        
         List<Integer> list1 = new ArrayList<>();
         list1.add(1);
         list1.add(1);
